@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+* {
+  text-decoration: none;
+  background: rgb(51, 47, 47);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+header .navbar {
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 2rem;
+}
+
+header a {
+  padding-right: 5rem;
+  font-family: 'Ubuntu Mono', monospace;
+
+}
+
+header .navbar .portfolio {
+  margin-top: 0.5rem;
+}
+
+.navbar img {
+  height: 2rem;
+  width: 2rem;
+  vertical-align: middle;
+}
+
+.bodyy .contact_button {
+  text-align: center;
+}
+
+.bodyy .bodyyy_img {
+  text-align: center;
+}
+
+.bodyy .presentation {
+  justify-content: start;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+.bodyy .presentation h3{
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top: 2rem;
+    font-size: large;
+  }
+
+.bodyy .presentation h4{
+    font-family: 'Inconsolata', monospace;
+    margin-top: 1rem;
+    font-size: large;
+}
+
+
+.bodyy .work {
+  justify-content: start;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+p {
+  justify-content: start;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Inconsolata', monospace;
+  font-size: larger;
+  line-height: 1.7rem;
+  margin-top: 1rem;
+}
+
+p a{
+    color:chocolate;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.bodyyy {
+  justify-content: start;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+.bodyyy .bio .me-year {
+  display: flex;
+}
+
+.bodyy .me {
+  justify-content: start;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bodyy .me h4 {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-sizing: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  padding: 1rem;
+  width: 35%;
+  border-radius: 0.4rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Ubuntu Mono', monospace;
+  letter-spacing: 0.1rem;
+  line-height: 1.7rem;
+  font-size: larger;
+}
+
+.bodyyy .bio h3{
+    font-family: 'Inconsolata', monospace;
+    font-size: larger;
+    margin-bottom: 1rem;
+    line-height: 1.7rem;
+}
+
+
+.bodyyy .hobbies h3{
+  font-family: 'Inconsolata', monospace;
+}
+
+.web-links img {
+  vertical-align: middle;
+}
+
+.web-links {
+  justify-content: start;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+.web-links img {
+  margin-right: 2rem;
+}
+
+.blog-posts {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+h2 {
+  text-decoration: underline;
+  text-decoration-thickness: inherit;
+  text-decoration-style: dotted;
+  text-decoration-color: whitesmoke;
+  margin-top: 3rem;
+  font-family: 'Ubuntu Mono', monospace;
+  margin-bottom: 1rem;
+}
+
+footer {
+  color: whitesmoke;
+  text-align: center;
+  background: rgb(51, 47, 47);
+  margin-top: 5rem;
+  font-family: 'Inconsolata', monospace;
+  margin-bottom: 2rem;
+}
+
+.tech {
+  justify-content: start;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+table {
+  width: 100%;
+}
+
+th, td{
+    padding: 1rem;
+}
+
+.button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+.contact_button{
+    margin-top: 3rem;
+}
+
+td{
+    font-family: 'Inconsolata', monospace;
+    font-size: larger;
+  }
+
+th{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: larger;
+  }
+
+button{
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.preloader{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  background: rgb(51, 47, 47);
+}
+
+.preloader img{
+}
+
+.disspear{
+  animation: vanish 1s forwards;
+}
+
+@keyframes vanish {
+  100%{
+    opacity: 0;
+    visibility: hidden; 
+  }
+}
+
+.annonce{
+  margin-top: 20%;
+}
+
+.annonce h4{
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.annonce a{
+  color:chocolate;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.btn{
+  text-align: center;
+}
+
+.footer-2{
+  margin-top: 25%;
+}
